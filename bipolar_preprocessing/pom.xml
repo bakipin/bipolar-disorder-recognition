@@ -1,0 +1,48 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>bipolar_preprocessing</groupId>
+	<artifactId>bipolar_preprocessing</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>bipolar_preprocessing</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>zemberek-nlp</groupId>
+			<artifactId>zemberek-normalization</artifactId>
+			<version>0.16.0</version>
+		</dependency>
+		<dependency>
+			<groupId>zemberek-nlp</groupId>
+			<artifactId>zemberek-morphology</artifactId>
+			<version>0.16.0</version>
+		</dependency>
+		<dependency>
+			<groupId>zemberek-nlp</groupId>
+			<artifactId>zemberek-core</artifactId>
+			<version>0.16.0</version>
+		</dependency>
+	</dependencies>
+	<repositories>
+		<repository>
+			<id>zemberek-repo</id>
+			<name>zemberek Maven Repo on Github</name>
+			<url>https://raw.github.com/ahmetaa/maven-repo/master</url>
+		</repository>
+	</repositories>
+</project>
